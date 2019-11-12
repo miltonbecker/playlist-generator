@@ -14,7 +14,7 @@ export function Landing(props) {
 
   useEffect(() => {
     if (!token)
-      fetch('//localhost:9998/token')
+      fetch('//miltonbecker.com:9998/token')
         .then(response => response.json())
         .then(response => {
           setToken(response.token);
