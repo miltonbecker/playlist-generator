@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  margin: 10px;
+  padding: 10px;;
+  flex-direction: column;
+  height: 200px;
+  width: 250px;
+  background-color: gray;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+}
+
+.button {
+  margin-right: 10px;
+}
