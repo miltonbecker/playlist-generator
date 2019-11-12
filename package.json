@@ -9,7 +9,8 @@
   "scripts": {
     "start": "run-p client:dev server:dev",
     "client:dev": "parcel src/client/index.html",
-    "server:dev": "nodemon src/server/index.js"
+    "server:dev": "nodemon src/server/index.js",
+    "build": "parcel build src/client/index.html"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
